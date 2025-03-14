@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: azure;
+}
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: orangered;
+}
+.header{
+  padding: 10px;
+}
+.content{
+  min-height: 90vh;
+  margin-top: 5px;
+}
+p{
+  margin: 5px !important;
+  text-align: left;
+  padding: 0;
+}
+
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 5px 15px;
+  outline: none !important  ;
+}
+.car{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: o.3s;
+}
+.car:hover{
+  height: 220px;
+}
+.car:hover > .car-content{
+  opacity: 1;
+  transform: translateY(-45px);
+}
+.carimg{ 
+  height: 180px;
+  width: 90%; 
+  border-radius: 5px;
+  transform: translateY(-60px);
+}
+.car-content{
+  margin: 0 14px;
+  font-size: 20px;
+  transform: translateY(-190px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.custom-text-left{
+  text-align: left;
+  margin-top: 80px;
+}
+.login{
+  padding-top: 80px !important;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+    overflow: hidden;
+}
+.login label,.login h1{
+  color: white !important;
+  font-size: 25px !important;
+  opacity: 0.6;
+}
+.login-form{
+  background-color: #1f1f1f;
+}
+
+.login-form input{
+  background-color: #333333 !important;
+  border: none;
+  color: white;
+  font-size: 18px;
+
+}
+.loginback-img h1{
+    font-size: 45px !important;
+}
+.login-logo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50%,-50%);
+  opacity: 0.3 !important;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 18px;
+}
